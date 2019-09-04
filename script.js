@@ -9,10 +9,6 @@ function changeGradient(){
 
 }
 
-input1.addEventListener("input", function(){
-    changeGradient();
-})
+input1.addEventListener("input", changeGradient())
 
-input2.addEventListener("input", function(){
-    changeGradient();
-})
+input2.addEventListener("input", changeGradient())
